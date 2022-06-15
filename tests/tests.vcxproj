@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cmp_str.c" />
+    <ClCompile Include="memory.c" />
+    <ClCompile Include="mpfr_compat.c" />
+    <ClCompile Include="mpf_compat.c" />
+    <ClCompile Include="random2.c" />
+    <ClCompile Include="reuse.c" />
+    <ClCompile Include="rnd_mode.c" />
+    <ClCompile Include="tabort_defalloc1.c" />
+    <ClCompile Include="tabort_defalloc2.c" />
+    <ClCompile Include="tabort_prec_max.c" />
+    <ClCompile Include="tabs.c" />
+    <ClCompile Include="tacos.c" />
+    <ClCompile Include="tacosh.c" />
+    <ClCompile Include="tadd.c" />
+    <ClCompile Include="tadd1sp.c" />
+    <ClCompile Include="tadd_d.c" />
+    <ClCompile Include="tadd_ui.c" />
+    <ClCompile Include="tagm.c" />
+    <ClCompile Include="tai.c" />
+    <ClCompile Include="talloc-cache.c" />
+    <ClCompile Include="talloc.c" />
+    <ClCompile Include="tasin.c" />
+    <ClCompile Include="tasinh.c" />
+    <ClCompile Include="tassert.c" />
+    <ClCompile Include="tatan.c" />
+    <ClCompile Include="tatanh.c" />
+    <ClCompile Include="taway.c" />
+    <ClCompile Include="tbeta.c" />
+    <ClCompile Include="tbuildopt.c" />
+    <ClCompile Include="tcan_round.c" />
+    <ClCompile Include="tcbrt.c" />
+    <ClCompile Include="tcheck.c" />
+    <ClCompile Include="tcmp.c" />
+    <ClCompile Include="tcmp2.c" />
+    <ClCompile Include="tcmpabs.c" />
+    <ClCompile Include="tcmp_d.c" />
+    <ClCompile Include="tcmp_ld.c" />
+    <ClCompile Include="tcmp_ui.c" />
+    <ClCompile Include="tcomparisons.c" />
+    <ClCompile Include="tconst_catalan.c" />
+    <ClCompile Include="tconst_euler.c" />
+    <ClCompile Include="tconst_log2.c" />
+    <ClCompile Include="tconst_pi.c" />
+    <ClCompile Include="tcopysign.c" />
+    <ClCompile Include="tcos.c" />
+    <ClCompile Include="tcosh.c" />
+    <ClCompile Include="tcot.c" />
+    <ClCompile Include="tcoth.c" />
+    <ClCompile Include="tcsc.c" />
+    <ClCompile Include="tcsch.c" />
+    <ClCompile Include="tdigamma.c" />
+    <ClCompile Include="tdim.c" />
+    <ClCompile Include="tdiv.c" />
+    <ClCompile Include="tdiv_d.c" />
+    <ClCompile Include="tdiv_ui.c" />
+    <ClCompile Include="tdot.c" />
+    <ClCompile Include="td_div.c" />
+    <ClCompile Include="td_sub.c" />
+    <ClCompile Include="teint.c" />
+    <ClCompile Include="teq.c" />
+    <ClCompile Include="terandom.c" />
+    <ClCompile Include="terandom_chisq.c" />
+    <ClCompile Include="terf.c" />
+    <ClCompile Include="tests.c" />
+    <ClCompile Include="texceptions.c" />
+    <ClCompile Include="texp.c" />
+    <ClCompile Include="texp10.c" />
+    <ClCompile Include="texp2.c" />
+    <ClCompile Include="texpm1.c" />
+    <ClCompile Include="tfactorial.c" />
+    <ClCompile Include="tfits.c" />
+    <ClCompile Include="tfma.c" />
+    <ClCompile Include="tfmma.c" />
+    <ClCompile Include="tfmod.c" />
+    <ClCompile Include="tfms.c" />
+    <ClCompile Include="tfpif.c" />
+    <ClCompile Include="tfprintf.c" />
+    <ClCompile Include="tfrac.c" />
+    <ClCompile Include="tfrexp.c" />
+    <ClCompile Include="tgamma.c" />
+    <ClCompile Include="tgamma_inc.c" />
+    <ClCompile Include="tgeneric.c" />
+    <ClCompile Include="tgeneric_ui.c" />
+    <ClCompile Include="tget_d.c" />
+    <ClCompile Include="tget_d_2exp.c" />
+    <ClCompile Include="tget_f.c" />
+    <ClCompile Include="tget_flt.c" />
+    <ClCompile Include="tget_ld_2exp.c" />
+    <ClCompile Include="tget_q.c" />
+    <ClCompile Include="tget_set_d128.c" />
+    <ClCompile Include="tget_set_d64.c" />
+    <ClCompile Include="tget_sj.c" />
+    <ClCompile Include="tget_str.c" />
+    <ClCompile Include="tget_z.c" />
+    <ClCompile Include="tgmpop.c" />
+    <ClCompile Include="tgrandom.c" />
+    <ClCompile Include="thyperbolic.c" />
+    <ClCompile Include="thypot.c" />
+    <ClCompile Include="tinits.c" />
+    <ClCompile Include="tinp_str.c" />
+    <ClCompile Include="tinternals.c" />
+    <ClCompile Include="tisnan.c" />
+    <ClCompile Include="tisqrt.c" />
+    <ClCompile Include="tj0.c" />
+    <ClCompile Include="tj1.c" />
+    <ClCompile Include="tjn.c" />
+    <ClCompile Include="tl2b.c" />
+    <ClCompile Include="tlgamma.c" />
+    <ClCompile Include="tli2.c" />
+    <ClCompile Include="tlngamma.c" />
+    <ClCompile Include="tlog.c" />
+    <ClCompile Include="tlog10.c" />
+    <ClCompile Include="tlog1p.c" />
+    <ClCompile Include="tlog2.c" />
+    <ClCompile Include="tlog_ui.c" />
+    <ClCompile Include="tminmax.c" />
+    <ClCompile Include="tmin_prec.c" />
+    <ClCompile Include="tmodf.c" />
+    <ClCompile Include="tmul.c" />
+    <ClCompile Include="tmul_2exp.c" />
+    <ClCompile Include="tmul_d.c" />
+    <ClCompile Include="tmul_ui.c" />
+    <ClCompile Include="tnext.c" />
+    <ClCompile Include="tnrandom.c" />
+    <ClCompile Include="tnrandom_chisq.c" />
+    <ClCompile Include="toutimpl.c" />
+    <ClCompile Include="tout_str.c" />
+    <ClCompile Include="tpow.c" />
+    <ClCompile Include="tpow3.c" />
+    <ClCompile Include="tpow_all.c" />
+    <ClCompile Include="tpow_z.c" />
+    <ClCompile Include="tprec_round.c" />
+    <ClCompile Include="tprintf.c" />
+    <ClCompile Include="trandom.c" />
+    <ClCompile Include="trandom_deviate.c" />
+    <ClCompile Include="trec_sqrt.c" />
+    <ClCompile Include="tremquo.c" />
+    <ClCompile Include="trint.c" />
+    <ClCompile Include="trndna.c" />
+    <ClCompile Include="troot.c" />
+    <ClCompile Include="trootn_ui.c" />
+    <ClCompile Include="tsec.c" />
+    <ClCompile Include="tsech.c" />
+    <ClCompile Include="tset.c" />
+    <ClCompile Include="tset_d.c" />
+    <ClCompile Include="tset_exp.c" />
+    <ClCompile Include="tset_f.c" />
+    <ClCompile Include="tset_float128.c" />
+    <ClCompile Include="tset_ld.c" />
+    <ClCompile Include="tset_q.c" />
+    <ClCompile Include="tset_si.c" />
+    <ClCompile Include="tset_sj.c" />
+    <ClCompile Include="tset_str.c" />
+    <ClCompile Include="tset_z.c" />
+    <ClCompile Include="tset_z_exp.c" />
+    <ClCompile Include="tsgn.c" />
+    <ClCompile Include="tsin.c" />
+    <ClCompile Include="tsinh.c" />
+    <ClCompile Include="tsinh_cosh.c" />
+    <ClCompile Include="tsin_cos.c" />
+    <ClCompile Include="tsi_op.c" />
+    <ClCompile Include="tsprintf.c" />
+    <ClCompile Include="tsqr.c" />
+    <ClCompile Include="tsqrt.c" />
+    <ClCompile Include="tsqrt_ui.c" />
+    <ClCompile Include="tstckintc.c" />
+    <ClCompile Include="tstdint.c" />
+    <ClCompile Include="tstrtofr.c" />
+    <ClCompile Include="tsub.c" />
+    <ClCompile Include="tsub1sp.c" />
+    <ClCompile Include="tsubnormal.c" />
+    <ClCompile Include="tsub_d.c" />
+    <ClCompile Include="tsub_ui.c" />
+    <ClCompile Include="tsum.c" />
+    <ClCompile Include="tswap.c" />
+    <ClCompile Include="ttan.c" />
+    <ClCompile Include="ttanh.c" />
+    <ClCompile Include="ttotal_order.c" />
+    <ClCompile Include="ttrunc.c" />
+    <ClCompile Include="tui_div.c" />
+    <ClCompile Include="tui_pow.c" />
+    <ClCompile Include="tui_sub.c" />
+    <ClCompile Include="turandom.c" />
+    <ClCompile Include="tvalist.c" />
+    <ClCompile Include="tversion.c" />
+    <ClCompile Include="ty0.c" />
+    <ClCompile Include="ty1.c" />
+    <ClCompile Include="tyn.c" />
+    <ClCompile Include="tzeta.c" />
+    <ClCompile Include="tzeta_ui.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mpfr-test.h" />
+    <ClInclude Include="mpf_compat.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{4efcae8a-462f-4f13-9646-e5b34e799231}</ProjectGuid>
+    <RootNamespace>tests</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)\src;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)\src;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cmp_str.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mpf_compat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mpfr_compat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="random2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reuse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rnd_mode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tabort_defalloc1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tabort_defalloc2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tabort_prec_max.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tabs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tacos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tacosh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tadd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tadd_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tadd_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tadd1sp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tagm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tai.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="talloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="talloc-cache.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tasin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tasinh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tassert.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tatan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tatanh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="taway.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tbeta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tbuildopt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcan_round.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcbrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcheck.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcmp_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcmp_ld.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcmp_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcmp2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcmpabs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcomparisons.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tconst_catalan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tconst_euler.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tconst_log2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tconst_pi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcopysign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcosh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcoth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcsc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcsch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="td_div.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="td_sub.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tdigamma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tdim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tdiv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tdiv_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tdiv_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tdot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="terandom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="terandom_chisq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="terf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tests.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="texceptions.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="texp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="texp2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="texp10.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="texpm1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tfactorial.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tfits.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tfma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tfmma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tfmod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tfms.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tfpif.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tfprintf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tfrac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tfrexp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tgamma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tgamma_inc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tgeneric.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tgeneric_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tget_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tget_d_2exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tget_f.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tget_flt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tget_ld_2exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tget_q.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tget_set_d64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tget_set_d128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tget_sj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tget_str.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tget_z.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tgmpop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tgrandom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="thyperbolic.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="thypot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinits.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinp_str.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinternals.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tisnan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tisqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tj0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tj1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tjn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tl2b.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlgamma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tli2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlngamma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlog.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlog_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlog1p.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlog2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlog10.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tmin_prec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tminmax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tmodf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tmul.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tmul_2exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tmul_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tmul_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tnext.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tnrandom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tnrandom_chisq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tout_str.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="toutimpl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tpow.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tpow_all.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tpow_z.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tpow3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tprec_round.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tprintf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="trandom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="trandom_deviate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="trec_sqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tremquo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="trint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="trndna.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="troot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="trootn_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsech.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tset_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tset_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tset_f.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tset_float128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tset_ld.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tset_q.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tset_si.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tset_sj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tset_str.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tset_z.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tset_z_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsgn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsi_op.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsin_cos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsinh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsinh_cosh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsprintf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsqrt_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tstckintc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tstdint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tstrtofr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsub.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsub_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsub_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsub1sp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsubnormal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tswap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ttan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ttanh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ttotal_order.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ttrunc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tui_div.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tui_pow.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tui_sub.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="turandom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tvalist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tversion.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ty0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ty1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tyn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tzeta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tzeta_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mpf_compat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mpfr-test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

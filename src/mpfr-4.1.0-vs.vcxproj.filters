@@ -1,0 +1,798 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="abort_prec_max.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="acos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="acosh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add1sp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="agm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ai.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="asin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="asinh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="atan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="atan2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="atanh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bernoulli.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="beta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="buildopt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cache.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cbrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="check.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="clear.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="clears.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cmp_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cmp_ld.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cmp_si.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cmp_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cmp2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cmpabs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cmpabs_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="comparisons.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="const_catalan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="const_euler.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="const_log2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="const_pi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="constant.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="copysign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cosh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="coth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="csc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="csch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="d_div.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="d_sub.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="digamma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="div.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="div_2exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="div_2si.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="div_2ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="div_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="div_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dump.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="eint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="eq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="erandom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="erf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="erfc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exp_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exp2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exp3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exp10.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="expm1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="extract.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="factorial.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fits_intmax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fits_sint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fits_slong.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fits_sshort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fits_uint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fits_uintmax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fits_ulong.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fits_ushort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fmma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fms.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fpif.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="frac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="free_cache.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="frexp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gamma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gamma_inc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gammaonethird.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_d64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_d128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_f.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_float128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_flt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_ld.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_patches.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_q.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_si.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_sj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_str.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_uj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_z.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_z_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gmp_op.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="grandom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hypot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="init2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inits.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inits2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inp_str.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="int_ceil_log2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="isinf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="isinteger.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="isnan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="isnum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="isqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="isregular.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iszero.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="li2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lngamma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log1p.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log10.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="logging.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="min_prec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minmax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="modf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mp_clz_tab.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mpfr-gmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mpfr-mini-gmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mpn_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mul.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mul_2exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mul_2si.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mul_2ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mul_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mul_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mulders.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nbits_ulong.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="neg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="next.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nrandom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="odd_p.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="out_str.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pool.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pow.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pow_si.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pow_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pow_z.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="powerof2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="print_raw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="print_rnd_mode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="printf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="random_deviate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rec_sqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reldiff.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rem1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rndna.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="root.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="round_near_x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="round_p.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="round_prec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scale2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sech.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_d64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_d128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_dfl_prec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_f.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_float128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_flt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_inf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_ld.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_nan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_prc_raw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_prec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_q.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_rnd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_si.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_si_2exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_sj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_str.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_str_raw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_ui_2exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_uj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_z.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_z_exp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_zero.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="setmax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="setmin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="setsign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sgn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="si_op.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="signbit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sin_cos.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sinh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sinh_cosh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sqrt_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stack_interface.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="strtofr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sub.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sub_d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sub_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sub1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sub1sp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="subnormal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="swap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tan.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tanh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="total_order.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ubf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uceil_exp2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uceil_log2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ufloor_log2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_div.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_pow.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_pow_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sub.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="urandom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="urandomb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vasprintf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="version.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="volatile.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="yn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zeta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zeta_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fits_s.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fits_u.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gen_inverse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ieee_floats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="invert_limb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="invsqrt_limb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mparam.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mpf2mpfr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mpfr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mpfr-cvers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mpfr-gmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mpfr-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mpfr-intmax.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mpfr-longlong.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mpfr-mini-gmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mpfr-sassert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mpfr-thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="random_deviate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
